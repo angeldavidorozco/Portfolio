@@ -1,0 +1,421 @@
+﻿@{
+    ViewData["Title"] = "Catalogo";
+}
+
+@section DynamicButtonRight {
+ 
+
+
+}
+
+<div class="container-lg px-4 px-lg-5">
+    <!-- Heading Row-->
+    <div class="row gx-4 gx-lg-5 align-items-center my-2">
+        <div class="col-lg-6"><img class="img-fluid rounded mb-4 mb-lg-0" src="~/lib/images/Resin_Logo.png" alt="Resin Otaku" /></div>
+        <div class="col-lg-6">
+            <h1 class="font-weight-light">¡Magia anime en resina!</h1>
+            <p class="text-justify">¡Lleva a tus personajes de anime favoritos contigo a todas partes con nuestros llaveros de resina epoxi! 😍💖 Además, marca tus lecturas con estilo con nuestros marcalibros de anime únicos. 📚✨ Hechos a mano con pasión y atención al detalle, nuestros productos de resina epoxi son una forma perfecta de mostrar tu amor por el anime.</p>
+            
+        </div>
+    </div>
+    <!-- Call to Action-->
+    <div class="card text-white bg-secondary my-3 py-3 text-center">
+        <div class="card-body">
+            <h1 class="text-white mb-3">¡Personalizá tus accesorios!</h1>
+            <p class="text-white m-0">Hacé click en el botón de abajo y probá nuestro personalizador. Elegí tu forma, imagen y color favorito</p>
+            </div>
+        <a class="btn btn-primary btn-lg mx-auto mt-1" asp-controller="Home" asp-action="Index">Probame</a>
+    </div>
+    <!-- Content Row-->
+    <div class="container-fluid row ml-lg-5 special">
+        <div class="carousel-container text-center col-lg-5 mx-2 mx-lg-3" style="background: linear-gradient(to bottom, #ff0000, #000000)">
+            <h1>Kimetsu</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner w-50">
+                
+                    <div class="carousel-item active">
+
+                        <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+                    
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="https://drive.google.com/uc?export=view&id=1yJIKvNPv_ehfpdNu4RTim2l5dGBRZGAE" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="https://ig.me/m/resinotaku" target="_blank" class="btn btn-primary">Lo quiero!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="https://drive.google.com/uc?export=view&id=1wyowbldoKdQnd4WR4gSFVFYb1HwfTacb" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Colgante/Llavero Nezuko</h2>
+                                    <p>4 cm diámetro</p>
+                                    <a href="https://ig.me/m/resinotaku" target="_blank" class="btn btn-primary">Lo quiero!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="https://drive.google.com/uc?export=view&id=1y2HKrG5gIuJw5EvYSfWhaa0TU7Rvr7w-" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="https://ig.me/m/resinotaku" target="_blank" class="btn btn-primary">Lo quiero!</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="https://drive.google.com/uc?export=view&id=10R3V0BFXt7jW1Bw44k2KG-jKt_ntFwuw" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="https://ig.me/m/resinotaku" target="_blank" class="btn btn-primary">Lo quiero!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <!-- Repeat the above structure for additional cards -->
+                
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-container text-center col-lg-5 mx-2 mx-lg-3" style="background: linear-gradient(to bottom, #8e41f5, #ff6b9d)">
+            <h1 class="mt-1">BTS</h1>
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner w-50">
+
+                    <div class="carousel-item active">
+
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat the above structure for additional cards -->
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="carousel-container text-center col-lg-5 mx-2 mx-lg-3" style="background: linear-gradient(to bottom, #00b8ff, #0a0057)">
+            <h1 class="mt-1">One Piece</h1>
+            <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner w-50">
+
+                    <div class="carousel-item active">
+
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat the above structure for additional cards -->
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="carousel-container text-center col-lg-5 mx-2 mx-lg-3" style="background: linear-gradient(to bottom, #ef00ff, #000000)">
+            <h1 class="mt-1">Jojo's</h1>
+            <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner w-50">
+
+                    <div class="carousel-item active">
+
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flip-card" onclick="toggleFlip(this)">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="/lib/images/provisory_icon.jpg" alt="image cap">
+
+                                </div>
+                                <div class="flip-card-back">
+                                    <h2>Card Title 1</h2>
+                                    <p>Some text about card 1.</p>
+                                    <a href="#" class="btn btn-primary">Button 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Repeat the above structure for additional cards -->
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>

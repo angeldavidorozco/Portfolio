@@ -1,0 +1,3 @@
+Designed and programmed a stock-matching system in VBA. It was customized to align with the company's stock management procedures. Operators would input information such as the polymer type, alphanumeric serial number of the bag, and its location in the inventory during the month. When this data was entered into the system, it would cross-reference it with the registered stock. If there was a match, the corresponding cell would change color and display a comment specifying the exact stock item it referred to. The system was also capable of keeping count of the type and amount of polymer used.
+
+The system reduced human errors and increased stock coherence between the physical stock and the declared one.

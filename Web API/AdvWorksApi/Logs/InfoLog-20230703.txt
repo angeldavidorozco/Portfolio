@@ -1,0 +1,89 @@
+2023-07-03 10:52:14.788 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-03 10:52:14.817 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-03 10:52:14.819 -03:00 [INF] Hosting environment: Development
+2023-07-03 10:52:14.819 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-03 10:52:15.604 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-03 10:52:15.835 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 232.5487ms
+2023-07-03 10:52:15.846 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-03 10:52:15.848 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-03 10:52:15.856 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.6753ms
+2023-07-03 10:52:15.900 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.3774ms
+2023-07-03 10:52:16.030 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-03 10:52:16.335 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 304.7513ms
+2023-07-03 10:52:34.005 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-03 10:52:34.015 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-03 10:52:34.026 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-03 10:52:34.068 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-03 10:52:34.080 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 49.8811ms
+2023-07-03 10:52:34.083 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-03 10:52:34.083 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 78.1103ms
+2023-07-03 17:48:14.294 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-03 17:48:14.467 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-03 17:48:14.469 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-03 17:48:14.469 -03:00 [INF] Hosting environment: Development
+2023-07-03 17:48:14.470 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-03 17:48:14.837 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-03 17:48:15.025 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 189.0985ms
+2023-07-03 17:48:15.214 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-03 17:48:15.216 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-03 17:48:15.221 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.2212ms
+2023-07-03 17:48:15.226 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.7918ms
+2023-07-03 17:48:15.405 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-03 17:48:15.658 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 252.9457ms
+2023-07-03 17:48:27.390 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/WeatherForecast - -
+2023-07-03 17:48:27.400 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-03 17:48:27.407 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-07-03 17:48:27.454 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.ErrorController.DevelopmentErrorHandler (AdvWorksAPI)'
+2023-07-03 17:48:27.460 -03:00 [INF] Route matched with {action = "DevelopmentErrorHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DevelopmentErrorHandler() on controller AdvWorksAPI.Controllers.ErrorController (AdvWorksAPI).
+2023-07-03 17:48:27.561 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-03 17:48:27.567 -03:00 [INF] Executed action AdvWorksAPI.Controllers.ErrorController.DevelopmentErrorHandler (AdvWorksAPI) in 103.4192ms
+2023-07-03 17:48:27.569 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.ErrorController.DevelopmentErrorHandler (AdvWorksAPI)'
+2023-07-03 17:48:27.570 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/WeatherForecast - - - 500 - text/plain;+charset=utf-8 179.6256ms
+2023-07-03 18:09:34.813 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-03 18:09:34.956 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-03 18:09:34.958 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-03 18:09:34.958 -03:00 [INF] Hosting environment: Development
+2023-07-03 18:09:34.959 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-03 18:09:35.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-03 18:09:35.587 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 175.5807ms
+2023-07-03 18:09:35.598 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-03 18:09:35.599 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-03 18:09:35.608 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.5681ms
+2023-07-03 18:09:35.616 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.4175ms
+2023-07-03 18:09:35.694 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-03 18:09:35.955 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 261.3642ms
+2023-07-03 20:12:49.315 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-03 20:12:49.321 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-03 20:12:49.330 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-03 20:30:47.935 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-03 20:30:48.061 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-03 20:30:48.062 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-03 20:30:48.063 -03:00 [INF] Hosting environment: Development
+2023-07-03 20:30:48.063 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-03 20:30:48.432 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-03 20:30:48.604 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 172.8420ms
+2023-07-03 20:30:48.617 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-03 20:30:48.619 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-03 20:30:48.624 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.0590ms
+2023-07-03 20:30:48.636 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.3531ms
+2023-07-03 20:30:48.713 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-03 20:30:48.971 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 258.0221ms
+2023-07-03 20:30:54.920 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/WeatherForecast - -
+2023-07-03 20:30:55.852 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-03 20:30:55.855 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-03 20:30:55.860 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI)'
+2023-07-03 20:30:55.874 -03:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller AdvWorksAPI.Controllers.ErrorController (AdvWorksAPI).
+2023-07-03 20:30:55.888 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-03 20:30:55.891 -03:00 [INF] Executed action AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI) in 14.2126ms
+2023-07-03 20:30:55.893 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI)'
+2023-07-03 20:30:55.894 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/WeatherForecast - - - 500 - text/plain;+charset=utf-8 974.3890ms

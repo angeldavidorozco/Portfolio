@@ -1,0 +1,16 @@
+
+Private Sub Worksheet_Change(ByVal Target As Range)
+
+ If Not Intersect(Target, Target.Worksheet.Range("A1:AZ200")) Is Nothing Then
+    
+        Application.EnableEvents = False
+        
+        Call MacroProduccion
+        
+        Application.EnableEvents = True
+        
+    End If
+
+
+End Sub
+

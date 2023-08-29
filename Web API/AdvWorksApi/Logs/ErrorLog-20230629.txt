@@ -1,0 +1,18 @@
+2023-06-29 10:32:07.334 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 34
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 34
+2023-06-29 10:47:15.522 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+2023-06-29 10:48:18.164 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36

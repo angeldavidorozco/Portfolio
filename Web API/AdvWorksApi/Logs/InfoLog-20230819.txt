@@ -1,0 +1,35 @@
+2023-08-19 12:50:43.297 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-19 12:50:43.600 -03:00 [INF] Now listening on: http://localhost:5113
+2023-08-19 12:50:43.602 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-19 12:50:43.603 -03:00 [INF] Hosting environment: Development
+2023-08-19 12:50:43.603 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-08-19 12:50:45.219 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger - -
+2023-08-19 12:50:45.335 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger - - - 301 0 - 119.1307ms
+2023-08-19 12:50:45.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-08-19 12:50:45.516 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/swagger-ui.css - -
+2023-08-19 12:50:45.520 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 175.4773ms
+2023-08-19 12:50:45.534 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-19 12:50:45.534 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/swagger-ui-standalone-preset.js - -
+2023-08-19 12:50:45.535 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/swagger-ui.css - - - 200 144929 text/css 18.2762ms
+2023-08-19 12:50:45.536 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-08-19 12:50:45.540 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-08-19 12:50:45.540 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/swagger-ui-bundle.js - -
+2023-08-19 12:50:45.544 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.1060ms
+2023-08-19 12:50:45.577 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-19 12:50:45.578 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 37.6446ms
+2023-08-19 12:50:45.583 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-19 12:50:45.585 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 50.2505ms
+2023-08-19 12:50:45.595 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.1705ms
+2023-08-19 12:50:45.760 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-08-19 12:50:45.776 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/favicon-32x32.png - -
+2023-08-19 12:50:45.777 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-19 12:50:45.778 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/favicon-32x32.png - - - 200 628 image/png 2.4042ms
+2023-08-19 12:50:46.211 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 451.1656ms
+2023-08-19 12:51:16.420 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/LogTest/LogObject - -
+2023-08-19 12:51:17.160 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.LogTestController.LogObject (AdvWorksAPI)'
+2023-08-19 12:51:17.169 -03:00 [INF] Route matched with {action = "LogObject", controller = "LogTest"}. Executing controller action with signature System.String LogObject() on controller AdvWorksAPI.Controllers.LogTestController (AdvWorksAPI).
+2023-08-19 12:51:17.184 -03:00 [INF] Customer = {"CustomerID":999,"NameStyle":false,"Title":"Mr.","FirstName":"Bruce","MiddleName":"","LastName":"Jones","Suffix":"","CompanyName":"Beach Computer Consulting","SalesPerson":"","EmailAddress":"Jones.Bruce@beachcomputerconsulting.com","Phone":"(714) 555-5555","PasswordHash":"","PasswordSalt":"","Rowguid":"00000000-0000-0000-0000-000000000000","ModifiedDate":"2023-08-19T12:51:17.1728831-03:00"}
+2023-08-19 12:51:17.188 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-08-19 12:51:17.192 -03:00 [INF] Executed action AdvWorksAPI.Controllers.LogTestController.LogObject (AdvWorksAPI) in 18.9389ms
+2023-08-19 12:51:17.194 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.LogTestController.LogObject (AdvWorksAPI)'
+2023-08-19 12:51:17.195 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/LogTest/LogObject - - - 200 - text/plain;+charset=utf-8 774.8836ms

@@ -1,0 +1,373 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+@section DynamicButtonRight {
+    <button class="btn btn-link btn-sm order-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+
+    
+}
+
+@section DynamicButtonLeft {
+    
+
+    <div class="ml-auto custom-margin-right">
+        <button class="toggle-button" onclick="toggleFixedContainer()" id="fadeButton">Vista Previa</button>
+    </div>
+}
+
+
+
+<!--Jumbo intro-->
+<br />
+<div class="jumbotron" id="Intro">
+    <h1 class="display-3">Konichiwa!</h1>
+    <h1 class="display-5">Bienvenidos al simulador de productos de ResinOtaku!</h1>
+    <p class="lead">Sigue los pasos para diseñar tu propio articulo, al finalizar, envianos el codigo a nuestro Whatsapp para conseguir tu cotizacion.</p>
+    <hr class="my-4">
+    <p>Podes revisar nuestros catalogos en siguente link</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+
+
+<!--Jumbo bases-->
+<div class="jumbotron" id="BaseSection">
+    <h1 class="display-3">Paso 1</h1>
+    <h1 class="display-5">Selecciona tu base</h1>
+    <p class="lead">Presiona para desplegar la información, 
+        selecciona tu modelo favorito y luego elige el tamaño que deseas</p>
+    <hr class="my-4">
+    <form>
+        <div class="form-group">
+            
+            <!--<input type="text" id="filter-Input" class="form-control typeahead" autocomplete="off" placeholder="Seleccione una base">-->
+
+            <label for="BaseDropdow">Base:</label>
+            <select class="form-control form-select" id="BaseDropdown" name="Base">
+                <option value="">Seleccione una</option>
+                @{
+                    string oldType = "";
+                }
+                @foreach (var baseOption in ViewBag.baseTable)
+                {
+                    string newType = baseOption.NormalName;
+
+
+                    if (newType != oldType)
+                    {
+                        <option value="@baseOption.NormalName">@baseOption.NormalName</option>
+                        oldType = newType;
+                    }
+
+                }
+            </select>
+
+            <br />
+                <label for="DescripDropdow">Tamaño:</label>
+            <select class="form-control form-select" id="DescripDropdown" name="descrip">
+                <option value="">Seleccione una</option>
+            </select>
+               
+            
+            <div class="base-container">
+                <img id="baseDisplay" src="~/lib/images/provisory_icon.jpg" alt="Selected Base" class="img-fluid">
+            </div>
+            
+
+        </div>
+
+    </form>
+</div>
+
+
+<!--Jumbo imagen-->
+<div class="jumbotron" id="ImageSection">
+    <h1 class="display-3">Paso 2</h1>
+    <h1 class="display-5">Selecciona tu Imagen</h1>
+    <p class="lead">Elegí tu anime o banda favorita y luego, busca la imagen
+        que más te guste en nuestra base de datos</p>
+    <hr class="my-4">
+    <p>No encontrás la imagen que querés? No hay problema! Podés no seleccionar ninguna imagen y enviarnos a
+        nuestro whatsapp la imagen que querés para tu accesorio.
+    </p>
+        <form>
+            <div class="form-group">
+
+                <label for="AnimeDropdow">Anime</label>
+            <select class="form-control form-select" id="AnimeDropdown" name="Imagen">
+                <option value="">Seleccione uno</option>
+                
+                </select>
+
+                <br />
+
+                <label for="ImageDropdow">Imagen</label>
+            <select class="form-control form-select" id="ImageDropdown" name="Imagen">
+                <option value="">Seleccione una</option>
+                </select>
+
+                <div class="image-container">
+                <img id="imageDisplay" src="~/lib/images/provisory_icon.jpg" alt="Selected Image" class="img-fluid">
+                </div>
+
+            </div>
+        </form>
+</div>
+
+
+<!--Jumbo color-->
+<div class="jumbotron" id="ColorSection">
+    <h1 class="display-3">Paso 3</h1>
+    <h1 class="display-5">Elegí el color para tu accesorio</h1>
+    <p class="lead">Interactua con las opciones para lograr el efecto que más te guste.
+        Para todos nuestros productos, usamos glitters para mayor brillo, asi como 
+        las mejores tintas que aseguran tonos vibrantes.
+    </p>
+    <hr class="my-4">
+
+    <label for="Color">Elija cuantos colores quiere</label>
+    <select class="form-control form-select" id="Color" name="Color">
+
+        <option>1 Color</option>
+        <option>2 Colores</option>
+        <option selected>3 Colores</option>
+
+    </select>
+
+    <br />
+
+    <div id="ColorGrid">
+
+        <div id="Top">
+            <label for="ColorSelector">Seleccione el color superior</label>  
+            <br />
+            <input type="color" id="ColorSelector" name="ColorPicker" style="width: 50%" value="#33ccff">
+        </div>
+
+        <div id="Mid">
+            <label for="MidSelector">Seleccione el color medio</label>
+            <br />
+            <input type="color" id="MidSelector" name="ColorPicker" style="width: 50%" value="#9900ff">
+        </div>        
+
+        <div id="Bot">
+            <label for="Color-Selector">Seleccione el color inferior</label>    
+            <br />
+            <input type="color" id="Color-Selector" name="ColorPicker" style="width: 50%" value="#ff99cc">
+        </div>
+
+        <label for="Dir_btn">Dirección del gradiente</label>
+        <div id="Dir_btn">
+            
+            
+            <button type="button" class="btn btn-primary m-2" id="toBottom">
+                <i class="fas fa-arrow-down fa-lg"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary m-2" id="toLeft">
+                <i class="fas fa-arrow-left fa-lg"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary m-2 " id="toRight">
+                <i class="fas fa-arrow-right fa-lg"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary m-2" id="225deg">
+                <i class="fas fa-expand-alt fa-lg"></i>
+            </button>
+
+            <button type="button" class="btn btn-primary m-2" id="135deg">
+                <i class="fas fa-expand-alt fa-flip-vertical fa-lg"></i>
+            </button>
+
+        </div>
+
+        <div id="ColorMixer"></div>
+
+    </div>
+    
+</div>
+
+
+<!--Jumbo Effectos
+<div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <form>
+        <div class="form-group">
+
+            <label for="EffectDropdown">Efectos</label>
+
+            <select class="form-control" id="EffectDropdown" name="Effecto">
+
+                //foreach (var EffectOption in ViewBag.EffectsTable)
+
+                //{
+
+                    //<option value="EffectOption.EffectID">EffectOption.EffectID</option>
+
+                }
+
+            </select>
+
+        </div>
+    </form>
+</div>
+-->
+<!--Jumbo Extras
+<div class="jumbotron" id="ExtraSection">
+    <h1 class="display-3">Paso 4</h1>
+    <h1 class="display-5">Selecciona tu Extra</h1>
+    <p class="lead">Los colgantes "Grandes" incluyen 2 extras a elección, los colgantes "Pequeños" solo 1.
+        <br />Podés añadir hasta 3 en total.
+    </p>
+    <hr class="my-4">
+    <form>
+        <div class="form-group">
+
+            <label for="ExtraDropdow">Anime</label>
+            <select class="form-control form-select" id="ExtraDropdown" name="Imagen">
+                <option value=""></option>
+                @{
+                    string oldType3 = "";
+                }
+                @foreach (var extraOption in ViewBag.ExtrasTable)
+                {
+                    string newType = extraOption.ExtraType;
+
+
+                    if (newType != oldType3)
+                    {
+                        <option value="@extraOption.ExtraType">@extraOption.ExtraType</option>
+                        oldType3 = newType;
+                    }
+
+                }
+            </select>
+
+            <label for="TypeDropdow">Extra</label>
+            <select class="form-control form-select" id="TypeDropdown" name="Imagen">
+                <option value="">Seleccione una</option>
+            </select>
+            <div class="extra-container">
+                <img id="extraDisplay" src="~/lib/images/provisory_icon.jpg" alt="Selected Image" class="img-fluid">
+            </div>
+
+        </div>
+    </form>
+</div>
+-->
+
+<!--Envio de formulario-->
+<div class="jumbotron" id="SendSection">
+
+
+    <h1 class="display-3">Paso 4</h1>
+    <h1 class="display-5">Agrega una descripcion</h1>
+    <p class="lead">Opcionalmente, podés dejar una descripción o especificar algún detalle que quieras añadir a tú pieza</p>
+
+    <form id="messageForm">
+        <div class="mb-3">
+            <label for="messageInput" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="messageInput" rows="4"></textarea>
+        </div>
+       
+    </form>
+
+    <h1 class="display-5">Todo listo?</h1>
+    <p class="lead">Hacé click en el boton de enviar para comunicarte con nosotros a través de WhatsApp.
+        <br />Se cargará un mensaje con la información que seleccionaste, envíalo y recibí la cotizacion de tu producto
+    </p>
+    <p id="PF"></p>
+    <hr class="my-4">
+
+    <button type="button" class="btn btn-primary" id="Send">Enviar</button>
+    
+    <p></p>
+</div>
+
+
+<!-- Fixed right container -->
+<div class="fixed-container sb-sidenav-toggled" id="fixedContainer" style="right: -300px">
+
+
+    <!-- Your independent grid system goes here -->
+    <h1>Tu producto</h1>
+
+    <div id="ProductGrid">
+
+        <div id="PBase">
+            <p>Base:</p>
+            <img src="" alt="Base" id="baseContainer" />
+        </div>
+
+        <div id="PImagen">
+            <p>Imagen:</p>
+            <img src="" alt="Image" id="imageContainer" />
+        </div>
+
+        <div id="PColor">
+            <p>Color:</p>            
+            <div id="colorContainer"></div>
+        </div>
+
+        <div id="PExtra">
+            <p>Extra:</p>
+            <img src="" alt="Extra" id="extraContainer" />
+        </div>
+
+    </div>
+
+</div>
+
+<!--Fixed Left container-->
+
+<div id="layoutSidenav_nav">
+    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <div class="sb-sidenav-menu">
+            <div class="nav">
+                <!--<div class="sb-sidenav-menu-heading">Core</div>-->
+                <!--Ayuda
+                <a class="nav-link select-cursor" id="ScrollAyuda">
+                    <div class="sb-nav-link-icon"><i class="fas fa-info-circle"></i></div>
+                    Ayuda
+                </a>-->
+                <!--Producto-->
+                <a class="nav-link select-cursor" id="ScrollBase">
+                    <div class="sb-nav-link-icon"><i class="fas fa-shopping-cart"></i></div>
+                    Base
+                </a>
+
+                <!--Imagen-->
+                <a class="nav-link select-cursor" id="ScrollImage">
+                    <div class="sb-nav-link-icon"><i class="fas fa-image"></i></div>
+                    Imagen
+                </a>
+
+                <!--<div class="sb-sidenav-menu-heading">Interface</div>-->
+                <!--Color-->
+                <a class="nav-link select-cursor" id="ScrollColor">
+                    <div class="sb-nav-link-icon"><i class="fas fa-palette"></i></div>
+                    Color
+                </a>
+
+                <!--Extras
+                <a class="nav-link select-cursor" id="ScrollExtra">
+                    <div class="sb-nav-link-icon"><i class="fas fa-star"></i></div>
+                    Extras
+                </a>-->
+                <!--Contacto-->
+                <a class="nav-link select-cursor" id="ScrollContact">
+                    <div class="sb-nav-link-icon"><i class="fas fa-address-card"></i></div>
+                    Contacto
+                </a>
+
+
+            </div>
+        </div>
+
+    </nav>
+</div>

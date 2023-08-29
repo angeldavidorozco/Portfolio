@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CatalogoResin</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CatalogoResin.styles.css" asp-append-version="true" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+</head>
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark" id="Franja">
+        <!-- Navbar Brand-->
+        <img src="~/lib/images/provisory_icon.jpg" alt="Icon" class="otaku-icon"/>
+        <a class="navbar-brand ps-3" asp-controller="Home" asp-action="Index">Resin Otaku</a>
+
+        <a asp-controller="Home" asp-action="Product_Selector">Catalogo</a>
+        
+        <!-- Sidebar Toggle-->
+        
+            <!--Buttons will be inserted here-->
+            
+            @RenderSection("DynamicButtonRight", required: false)
+            @RenderSection("DynamicButtonLeft", required: false)
+
+    </nav>
+    <div id="layoutSidenav">    
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    @RenderBody()
+                </div>
+            </main>
+            <footer class="py-0 bg-light mt-auto">
+                <div class="container-fluid px-4 py-5" id="ContactSection">
+                    <div class="d-flex flex-column flex-md-row align-items-center justify-content-between small">
+
+                        <div class="d-flex mt-2 mt-md-0  mr-auto ml-3">
+                            <a class="me-3" href="#">
+                                <i class="fab fa-instagram" style="font-size:50px"></i>
+                            </a>
+                            <!-- Add more social media icons here -->
+                        </div>
+
+                        <div class="text-muted">Copyright &copy; Your Website 2023</div>
+
+                        <!-- Social Media Icons Section -->
+                        
+                    </div>
+                    <!-- Additional Information Section -->
+                    <div class="text-muted mt-3">
+                        Contacto: (351) 212-5140
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Typeahead JS (replace with the appropriate CDN or local file reference) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+    
+
+
+    <!--<script src="~/lib/jquery/dist/jquery.min.js"></script>-->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/all.min.js" asp-append-version="true"></script>
+
+    
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>-->
+    
+    
+    
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

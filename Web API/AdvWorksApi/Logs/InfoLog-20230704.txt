@@ -1,0 +1,1158 @@
+2023-07-04 10:27:36.756 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 10:27:36.884 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 10:27:36.886 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 10:27:36.886 -03:00 [INF] Hosting environment: Development
+2023-07-04 10:27:36.887 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 10:27:37.518 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 10:27:37.728 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 211.4655ms
+2023-07-04 10:27:37.740 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 10:27:37.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 10:27:37.803 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.0355ms
+2023-07-04 10:27:37.843 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.2966ms
+2023-07-04 10:27:37.908 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 10:27:38.192 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 283.5412ms
+2023-07-04 10:27:52.863 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jhonk/password/password - -
+2023-07-04 10:27:53.561 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:27:53.579 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:27:53.599 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 10:27:53.604 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 20.6881ms
+2023-07-04 10:27:53.606 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:27:53.606 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jhonk/password/password - - - 401 - text/plain;+charset=utf-8 743.8259ms
+2023-07-04 10:28:08.974 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - -
+2023-07-04 10:28:08.980 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:08.983 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:28:08.985 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 10:28:08.986 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 1.412ms
+2023-07-04 10:28:08.987 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:08.988 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - - - 401 - text/plain;+charset=utf-8 13.8909ms
+2023-07-04 10:28:10.461 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - -
+2023-07-04 10:28:10.464 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:10.465 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:28:10.467 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 10:28:10.468 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 1.4376ms
+2023-07-04 10:28:10.469 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:10.470 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - - - 401 - text/plain;+charset=utf-8 9.1098ms
+2023-07-04 10:28:11.517 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - -
+2023-07-04 10:28:11.518 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:11.519 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:28:11.520 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 10:28:11.521 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 1.1401ms
+2023-07-04 10:28:11.522 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:11.522 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - - - 401 - text/plain;+charset=utf-8 5.2842ms
+2023-07-04 10:28:13.534 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - -
+2023-07-04 10:28:13.535 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:13.536 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:28:13.537 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 10:28:13.539 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 1.4442ms
+2023-07-04 10:28:13.540 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:13.541 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/jonhk/password/password - - - 401 - text/plain;+charset=utf-8 6.6300ms
+2023-07-04 10:28:28.390 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 10:28:28.391 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:28:28.391 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:29:56.906 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 10:29:57.016 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 10:29:57.018 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 10:29:57.018 -03:00 [INF] Hosting environment: Development
+2023-07-04 10:29:57.019 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 10:29:57.737 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 10:29:57.913 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 177.0497ms
+2023-07-04 10:29:57.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 10:29:57.926 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 10:29:57.932 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.0994ms
+2023-07-04 10:29:57.940 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.0589ms
+2023-07-04 10:29:58.022 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 10:29:58.295 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 273.3818ms
+2023-07-04 10:30:13.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 10:30:13.081 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:30:13.093 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:32:13.210 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 10:32:13.326 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 10:32:13.328 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 10:32:13.328 -03:00 [INF] Hosting environment: Development
+2023-07-04 10:32:13.329 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 10:32:13.904 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 10:32:14.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 168.2556ms
+2023-07-04 10:32:14.082 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 10:32:14.083 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 10:32:14.092 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.1378ms
+2023-07-04 10:32:14.099 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.1977ms
+2023-07-04 10:32:14.186 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 10:32:14.498 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.7774ms
+2023-07-04 10:32:29.598 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 10:32:29.654 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:32:29.666 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 10:46:39.094 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 10:46:39.242 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 10:46:39.244 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 10:46:39.244 -03:00 [INF] Hosting environment: Development
+2023-07-04 10:46:39.245 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 10:46:39.871 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 10:46:40.049 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 179.9352ms
+2023-07-04 10:46:40.060 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 10:46:40.062 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 10:46:40.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.5552ms
+2023-07-04 10:46:40.074 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.4476ms
+2023-07-04 10:46:40.163 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 10:46:40.435 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 272.4031ms
+2023-07-04 10:47:26.248 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 10:47:26.328 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 10:47:26.340 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 11:17:47.319 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 11:17:47.446 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 11:17:47.447 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 11:17:47.448 -03:00 [INF] Hosting environment: Development
+2023-07-04 11:17:47.448 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 11:17:47.945 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 11:17:48.112 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 167.7059ms
+2023-07-04 11:17:48.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 11:17:48.124 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 11:17:48.130 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.6047ms
+2023-07-04 11:17:48.138 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.6722ms
+2023-07-04 11:17:48.220 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 11:17:48.491 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.7876ms
+2023-07-04 11:18:00.561 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 11:18:00.616 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 11:18:00.628 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 11:24:23.777 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 11:24:23.898 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 11:24:23.899 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 11:24:23.900 -03:00 [INF] Hosting environment: Development
+2023-07-04 11:24:23.900 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 11:24:24.402 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 11:24:24.578 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 177.7495ms
+2023-07-04 11:24:24.590 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 11:24:24.591 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 11:24:24.597 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.8323ms
+2023-07-04 11:24:24.601 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.0556ms
+2023-07-04 11:24:24.684 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 11:24:24.957 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 272.9312ms
+2023-07-04 11:24:36.469 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 11:25:35.000 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 11:25:35.012 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 11:38:11.209 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 11:38:11.324 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 11:38:11.326 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 11:38:11.327 -03:00 [INF] Hosting environment: Development
+2023-07-04 11:38:11.327 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 11:38:11.669 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 11:38:11.839 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 171.1305ms
+2023-07-04 11:38:11.851 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 11:38:11.852 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 11:38:11.860 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.5811ms
+2023-07-04 11:38:11.868 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.6487ms
+2023-07-04 11:38:11.952 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 11:38:12.222 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.9420ms
+2023-07-04 12:03:03.931 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 12:03:04.102 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 12:03:04.104 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 12:03:04.105 -03:00 [INF] Hosting environment: Development
+2023-07-04 12:03:04.105 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 12:03:04.856 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 12:03:05.022 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 167.4267ms
+2023-07-04 12:03:05.034 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 12:03:05.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 12:03:05.040 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.8490ms
+2023-07-04 12:03:05.048 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.6672ms
+2023-07-04 12:03:05.129 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 12:03:05.401 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 272.1942ms
+2023-07-04 12:03:30.628 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 12:03:30.682 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 12:03:30.695 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 12:03:40.380 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 9680.7145ms
+2023-07-04 12:03:40.384 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 12:03:40.386 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '376' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at AdvWorksAPI.SecurityLayer.SecurityManager.SetJwtToken(JwtSettings settings, AppSecurityToken asToken) in D:\angel uni\Git-projects\sample\AdvWorksAPI\SecurityLayer\SecurityManager.cs:line 142
+   at AdvWorksAPI.SecurityLayer.SecurityManager.AuthenticateUser(String name, String password, JwtSettings settings) in D:\angel uni\Git-projects\sample\AdvWorksAPI\SecurityLayer\SecurityManager.cs:line 24
+   at AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser(String name, String password) in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\SecurityTestController.cs:line 29
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-07-04 12:03:40.469 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.ErrorController.DevelopmentErrorHandler (AdvWorksAPI)'
+2023-07-04 12:03:40.471 -03:00 [INF] Route matched with {action = "DevelopmentErrorHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DevelopmentErrorHandler() on controller AdvWorksAPI.Controllers.ErrorController (AdvWorksAPI).
+2023-07-04 12:03:40.476 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 12:03:40.477 -03:00 [INF] Executed action AdvWorksAPI.Controllers.ErrorController.DevelopmentErrorHandler (AdvWorksAPI) in 5.5306ms
+2023-07-04 12:03:40.478 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.ErrorController.DevelopmentErrorHandler (AdvWorksAPI)'
+2023-07-04 12:03:40.478 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - - - 500 - text/plain;+charset=utf-8 9850.8951ms
+2023-07-04 12:08:23.590 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 12:08:23.710 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 12:08:23.711 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 12:08:23.712 -03:00 [INF] Hosting environment: Development
+2023-07-04 12:08:23.712 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 12:08:24.429 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 12:08:24.613 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 185.4321ms
+2023-07-04 12:08:24.628 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 12:08:24.629 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 12:08:24.632 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.9246ms
+2023-07-04 12:08:24.640 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.8179ms
+2023-07-04 12:08:24.724 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 12:08:25.037 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.8296ms
+2023-07-04 12:08:32.712 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 12:08:32.833 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 12:08:32.835 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 12:08:32.836 -03:00 [INF] Hosting environment: Development
+2023-07-04 12:08:32.837 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 12:08:33.662 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 12:08:33.842 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 182.3885ms
+2023-07-04 12:08:33.853 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 12:08:33.854 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 12:08:33.862 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.8955ms
+2023-07-04 12:08:33.871 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.6340ms
+2023-07-04 12:08:33.960 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 12:08:34.238 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 277.8650ms
+2023-07-04 12:08:47.139 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 12:08:47.192 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 12:08:47.205 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 12:08:47.302 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.SecurityLayer.AppSecurityToken'.
+2023-07-04 12:08:47.318 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 109.6832ms
+2023-07-04 12:08:47.321 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 12:08:47.322 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - - - 200 - application/json;+charset=utf-8 182.7527ms
+2023-07-04 12:09:10.480 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 12:09:10.596 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 12:09:10.598 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 12:09:10.599 -03:00 [INF] Hosting environment: Development
+2023-07-04 12:09:10.599 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 12:09:11.281 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 12:09:11.470 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 191.3230ms
+2023-07-04 12:09:11.482 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 12:09:11.485 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 12:09:11.489 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.5410ms
+2023-07-04 12:09:11.498 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.3072ms
+2023-07-04 12:09:11.579 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 12:09:11.851 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 271.7578ms
+2023-07-04 12:09:22.173 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 12:09:22.224 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 12:09:22.236 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 13:46:57.928 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 13:46:58.089 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 13:46:58.092 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 13:46:58.095 -03:00 [INF] Hosting environment: Development
+2023-07-04 13:46:58.096 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 13:46:58.639 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 13:46:58.882 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 244.6458ms
+2023-07-04 13:46:58.895 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 13:46:58.898 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 13:46:58.904 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.8016ms
+2023-07-04 13:46:58.907 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.4222ms
+2023-07-04 13:46:58.992 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 13:46:59.276 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 283.1342ms
+2023-07-04 13:47:11.280 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 13:47:11.336 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:47:11.349 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 13:47:11.444 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.SecurityLayer.AppSecurityToken'.
+2023-07-04 13:47:11.457 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 105.2291ms
+2023-07-04 13:47:11.460 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:47:11.460 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - - - 200 - application/json;+charset=utf-8 180.4979ms
+2023-07-04 13:47:54.587 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/passw - -
+2023-07-04 13:47:54.595 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:47:54.599 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 13:47:54.600 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 13:47:54.601 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 1.3573ms
+2023-07-04 13:47:54.601 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:47:54.602 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/passw - - - 401 - text/plain;+charset=utf-8 16.8239ms
+2023-07-04 13:51:31.540 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 13:51:31.661 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 13:51:31.663 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 13:51:31.664 -03:00 [INF] Hosting environment: Development
+2023-07-04 13:51:31.664 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 13:51:32.183 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 13:51:32.352 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 170.5388ms
+2023-07-04 13:51:32.363 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 13:51:32.365 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 13:51:32.370 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.4421ms
+2023-07-04 13:51:32.378 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9497ms
+2023-07-04 13:51:32.459 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 13:51:32.736 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 276.5243ms
+2023-07-04 13:52:14.323 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 13:52:14.376 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:52:14.388 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 13:52:14.484 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.SecurityLayer.AppSecurityToken'.
+2023-07-04 13:52:14.495 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 104.404ms
+2023-07-04 13:52:14.498 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:52:14.498 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - - - 200 - application/json;+charset=utf-8 175.2953ms
+2023-07-04 13:54:54.098 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/WeatherForecast - -
+2023-07-04 13:54:54.170 -03:00 [INF] Executing endpoint 'AdvWorksApi.Controllers.WeatherForecastController.Get (AdvWorksAPI)'
+2023-07-04 13:54:54.172 -03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[AdvWorksApi.WeatherForecast] Get() on controller AdvWorksApi.Controllers.WeatherForecastController (AdvWorksAPI).
+2023-07-04 13:54:54.176 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksApi.WeatherForecast[]'.
+2023-07-04 13:54:54.182 -03:00 [INF] Executed action AdvWorksApi.Controllers.WeatherForecastController.Get (AdvWorksAPI) in 7.6858ms
+2023-07-04 13:54:54.183 -03:00 [INF] Executed endpoint 'AdvWorksApi.Controllers.WeatherForecastController.Get (AdvWorksAPI)'
+2023-07-04 13:54:54.183 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/WeatherForecast - - - 200 - application/json;+charset=utf-8 85.7423ms
+2023-07-04 13:57:41.167 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 13:57:41.296 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 13:57:41.297 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 13:57:41.298 -03:00 [INF] Hosting environment: Development
+2023-07-04 13:57:41.299 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 13:57:41.849 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 13:57:42.023 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 175.2875ms
+2023-07-04 13:57:42.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 13:57:42.036 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 13:57:42.042 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.1830ms
+2023-07-04 13:57:42.044 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.4905ms
+2023-07-04 13:57:42.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 13:57:42.411 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 283.2583ms
+2023-07-04 13:58:01.969 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 13:58:02.023 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:58:02.036 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 13:58:02.131 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.SecurityLayer.AppSecurityToken'.
+2023-07-04 13:58:02.146 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 104.3168ms
+2023-07-04 13:58:02.149 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 13:58:02.149 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - - - 200 - application/json;+charset=utf-8 180.5138ms
+2023-07-04 13:58:41.449 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 13:58:41.497 -03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=GetCustomers
+2023-07-04 13:58:41.501 -03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-07-04 13:58:41.504 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI)'
+2023-07-04 13:58:41.506 -03:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller AdvWorksAPI.Controllers.ErrorController (AdvWorksAPI).
+2023-07-04 13:58:41.508 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 13:58:41.508 -03:00 [INF] Executed action AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI) in 1.8211ms
+2023-07-04 13:58:41.509 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI)'
+2023-07-04 13:58:41.510 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 64.5685ms
+2023-07-04 14:00:44.045 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 14:00:44.171 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 14:00:44.173 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 14:00:44.173 -03:00 [INF] Hosting environment: Development
+2023-07-04 14:00:44.174 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 14:00:44.855 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 14:00:45.025 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 171.9430ms
+2023-07-04 14:00:45.036 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 14:00:45.038 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 14:00:45.043 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.4938ms
+2023-07-04 14:00:45.051 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.1534ms
+2023-07-04 14:00:45.132 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 14:00:45.409 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 276.8156ms
+2023-07-04 14:01:03.495 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - -
+2023-07-04 14:01:03.553 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 14:01:03.565 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 14:01:03.662 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.SecurityLayer.AppSecurityToken'.
+2023-07-04 14:01:03.674 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 105.6233ms
+2023-07-04 14:01:03.677 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 14:01:03.677 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/johnk/password/password - - - 200 - application/json;+charset=utf-8 182.5755ms
+2023-07-04 14:01:15.881 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 14:01:15.920 -03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=GetCustomers
+2023-07-04 14:01:15.923 -03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2023-07-04 14:01:15.926 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI)'
+2023-07-04 14:01:15.928 -03:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller AdvWorksAPI.Controllers.ErrorController (AdvWorksAPI).
+2023-07-04 14:01:15.930 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 14:01:15.930 -03:00 [INF] Executed action AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI) in 1.8111ms
+2023-07-04 14:01:15.931 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.ErrorController.StatusCodeHandler (AdvWorksAPI)'
+2023-07-04 14:01:15.932 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 403 - text/plain;+charset=utf-8 50.8958ms
+2023-07-04 14:01:34.518 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 14:01:34.629 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 14:01:34.631 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 14:01:34.632 -03:00 [INF] Hosting environment: Development
+2023-07-04 14:01:34.632 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 14:01:35.324 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 14:01:35.506 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 183.1003ms
+2023-07-04 14:01:35.521 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 14:01:35.523 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 14:01:35.525 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.5682ms
+2023-07-04 14:01:35.534 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.1450ms
+2023-07-04 14:01:35.624 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 14:01:35.948 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 324.7992ms
+2023-07-04 14:01:52.071 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/pauls/password/password - -
+2023-07-04 14:01:52.129 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 14:01:52.142 -03:00 [INF] Route matched with {action = "AuthenticateUser", controller = "SecurityTest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.SecurityLayer.AppSecurityToken] AuthenticateUser(System.String, System.String) on controller AdvWorksAPI.Controllers.SecurityTestController (AdvWorksAPI).
+2023-07-04 14:01:52.241 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.SecurityLayer.AppSecurityToken'.
+2023-07-04 14:01:52.253 -03:00 [INF] Executed action AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI) in 108.2427ms
+2023-07-04 14:01:52.256 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.SecurityTestController.AuthenticateUser (AdvWorksAPI)'
+2023-07-04 14:01:52.256 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/SecurityTest/AuthenticateUser/pauls/password/password - - - 200 - application/json;+charset=utf-8 184.9269ms
+2023-07-04 14:02:06.645 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 14:02:06.689 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 14:02:06.691 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 14:02:06.728 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-04 14:02:06.737 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 44.3762ms
+2023-07-04 14:02:06.737 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 14:02:06.738 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 92.7460ms
+2023-07-04 16:42:49.447 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:42:49.573 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:42:49.574 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:42:49.575 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:42:49.575 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:42:49.860 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:42:50.033 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 174.2514ms
+2023-07-04 16:42:50.044 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:42:50.046 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:42:50.051 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.1960ms
+2023-07-04 16:42:50.055 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.9646ms
+2023-07-04 16:42:50.139 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:42:50.430 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 290.6462ms
+2023-07-04 16:42:54.484 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:42:54.635 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:42:54.643 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:43:06.571 -03:00 [ERR] An error occurred using the connection to database 'DESKTOP-KGKLBC0' on server 'localhost'.
+2023-07-04 16:43:06.640 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AdvWorksAPI.Models.AdvWorksLTDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:87a1ea13-b19a-401a-9eb2-a4f7c0ee3d2e
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:87a1ea13-b19a-401a-9eb2-a4f7c0ee3d2e
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-07-04 16:43:06.741 -03:00 [ERR] Error in CustomerController.Get()
+Message: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+Source: Microsoft.EntityFrameworkCore.SqlServer
+Stack Trace:    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AdvWorksAPI.RepositoryLayer2.CustomerRepository.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\RepositoryLayer2\CustomerRepository.cs:line 20
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 42
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:87a1ea13-b19a-401a-9eb2-a4f7c0ee3d2e
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AdvWorksAPI.RepositoryLayer2.CustomerRepository.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\RepositoryLayer2\CustomerRepository.cs:line 20
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 42
+2023-07-04 16:43:06.756 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 16:43:06.759 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 12113.0134ms
+2023-07-04 16:43:06.761 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:43:06.771 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 12286.9353ms
+2023-07-04 16:44:24.158 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:44:24.283 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:44:24.286 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:44:24.286 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:44:24.287 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:44:24.973 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:44:25.142 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 171.1174ms
+2023-07-04 16:44:25.154 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:44:25.155 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:44:25.164 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.4339ms
+2023-07-04 16:44:25.172 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.4527ms
+2023-07-04 16:44:25.258 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:44:25.536 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.3347ms
+2023-07-04 16:44:29.878 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:44:29.926 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:44:29.933 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:44:40.680 -03:00 [ERR] An error occurred using the connection to database 'DESKTOP-KGKLBC0' on server 'localhost'.
+2023-07-04 16:44:40.702 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AdvWorksAPI.Models.AdvWorksLTDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:90b507b8-e441-4fcb-a415-fd8d289cc067
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:90b507b8-e441-4fcb-a415-fd8d289cc067
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-07-04 16:44:40.764 -03:00 [ERR] Error in CustomerController.Get()
+Message: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+Source: Microsoft.EntityFrameworkCore.SqlServer
+Stack Trace:    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AdvWorksAPI.RepositoryLayer2.CustomerRepository.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\RepositoryLayer2\CustomerRepository.cs:line 20
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 42
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:90b507b8-e441-4fcb-a415-fd8d289cc067
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AdvWorksAPI.RepositoryLayer2.CustomerRepository.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\RepositoryLayer2\CustomerRepository.cs:line 20
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 42
+2023-07-04 16:44:40.783 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 16:44:40.786 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 10849.3403ms
+2023-07-04 16:44:40.788 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:44:40.796 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 10917.6263ms
+2023-07-04 16:47:12.521 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:47:12.652 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:47:12.653 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:47:12.654 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:47:12.654 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:47:13.028 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:47:13.227 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 201.3729ms
+2023-07-04 16:47:13.240 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:47:13.241 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:47:13.247 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.3928ms
+2023-07-04 16:47:13.252 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.8700ms
+2023-07-04 16:47:13.335 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:47:13.613 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.4416ms
+2023-07-04 16:47:16.508 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:47:16.556 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:47:16.564 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:47:27.322 -03:00 [ERR] An error occurred using the connection to database 'DESKTOP-KGKLBC0()' on server 'localhost'.
+2023-07-04 16:47:27.341 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AdvWorksAPI.Models.AdvWorksLTDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0()" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:a59087c9-275d-4b80-af2f-c26a6180e43a
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0()" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:a59087c9-275d-4b80-af2f-c26a6180e43a
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-07-04 16:47:27.404 -03:00 [ERR] Error in CustomerController.Get()
+Message: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+Source: Microsoft.EntityFrameworkCore.SqlServer
+Stack Trace:    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AdvWorksAPI.RepositoryLayer2.CustomerRepository.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\RepositoryLayer2\CustomerRepository.cs:line 20
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 42
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0()" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:a59087c9-275d-4b80-af2f-c26a6180e43a
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at AdvWorksAPI.RepositoryLayer2.CustomerRepository.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\RepositoryLayer2\CustomerRepository.cs:line 20
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 42
+2023-07-04 16:47:27.420 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-07-04 16:47:27.424 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 10856.3698ms
+2023-07-04 16:47:27.426 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:47:27.433 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 10924.3109ms
+2023-07-04 16:48:17.561 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:48:17.690 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:48:17.694 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:48:17.695 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:48:17.696 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:48:18.433 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:48:18.609 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 177.9303ms
+2023-07-04 16:48:18.625 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:48:18.626 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:48:18.631 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.7905ms
+2023-07-04 16:48:18.640 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.6906ms
+2023-07-04 16:48:18.724 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:48:19.000 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 275.6979ms
+2023-07-04 16:48:25.485 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:48:25.539 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:48:25.547 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:49:41.735 -03:00 [ERR] An error occurred using the connection to database 'DESKTOP-KGKLBC0()' on server 'localhost'.
+2023-07-04 16:49:41.752 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AdvWorksAPI.Models.AdvWorksLTDbContext'.
+System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at Microsoft.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at Microsoft.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-07-04 16:49:54.943 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:49:55.056 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:49:55.058 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:49:55.058 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:49:55.059 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:49:55.885 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:49:56.107 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 223.6269ms
+2023-07-04 16:49:56.118 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:49:56.120 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:49:56.125 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.0039ms
+2023-07-04 16:49:56.128 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.9721ms
+2023-07-04 16:49:56.215 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:49:56.506 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 290.4430ms
+2023-07-04 16:50:01.586 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:50:01.639 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:50:01.646 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:50:16.345 -03:00 [ERR] An error occurred using the connection to database 'DESKTOP-KGKLBC0()' on server 'localhost'.
+2023-07-04 16:50:16.364 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AdvWorksAPI.Models.AdvWorksLTDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0()" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:b8520e15-3d7e-45ae-8975-7c456037f40b
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0()" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:b8520e15-3d7e-45ae-8975-7c456037f40b
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-07-04 16:52:09.826 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:52:09.935 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:52:09.937 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:52:09.938 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:52:09.938 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:52:10.700 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:52:10.895 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 196.7338ms
+2023-07-04 16:52:10.907 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:52:10.909 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:52:10.915 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.3608ms
+2023-07-04 16:52:10.926 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.9020ms
+2023-07-04 16:52:11.031 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:52:11.326 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.9887ms
+2023-07-04 16:52:14.267 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:52:14.314 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:52:14.322 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:52:29.566 -03:00 [ERR] An error occurred using the connection to database 'DESKTOP-KGKLBC0\Admin' on server 'localhost'.
+2023-07-04 16:52:29.586 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AdvWorksAPI.Models.AdvWorksLTDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0\Admin" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:9bf7b772-f333-4bab-b13d-9a3f30fc1a86
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "DESKTOP-KGKLBC0\Admin" requested by the login. The login failed.
+Login failed for user 'DESKTOP-KGKLBC0\Admin'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:9bf7b772-f333-4bab-b13d-9a3f30fc1a86
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2023-07-04 16:57:14.050 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 16:57:14.219 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 16:57:14.221 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 16:57:14.222 -03:00 [INF] Hosting environment: Development
+2023-07-04 16:57:14.222 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 16:57:14.765 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 16:57:14.945 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 181.1793ms
+2023-07-04 16:57:14.973 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 16:57:14.974 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 16:57:14.979 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.8080ms
+2023-07-04 16:57:14.987 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.7829ms
+2023-07-04 16:57:15.065 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 16:57:15.350 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 284.4985ms
+2023-07-04 16:57:19.619 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-07-04 16:57:19.668 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:57:19.676 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 16:57:20.802 -03:00 [INF] Executed DbCommand (184ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+ORDER BY [c].[LastName]
+2023-07-04 16:57:20.897 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-04 16:57:20.916 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 1236.6135ms
+2023-07-04 16:57:20.917 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 16:57:20.924 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 1305.2176ms
+2023-07-04 17:37:50.528 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 17:37:50.643 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 17:37:50.645 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 17:37:50.645 -03:00 [INF] Hosting environment: Development
+2023-07-04 17:37:50.646 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 17:37:51.288 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 17:37:51.462 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 175.6841ms
+2023-07-04 17:37:51.474 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 17:37:51.475 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 17:37:51.485 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.6470ms
+2023-07-04 17:37:51.488 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.4752ms
+2023-07-04 17:37:51.579 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 17:37:51.854 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 274.7946ms
+2023-07-04 17:44:57.956 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer/235 - -
+2023-07-04 17:44:58.006 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 17:44:58.019 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Get(Int32) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 17:44:58.919 -03:00 [INF] Executed DbCommand (84ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-07-04 17:44:58.987 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-07-04 17:44:59.005 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 982.338ms
+2023-07-04 17:44:59.006 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-07-04 17:44:59.013 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer/235 - - - 200 - application/json;+charset=utf-8 1056.9722ms
+2023-07-04 18:11:30.877 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 18:11:31.004 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 18:11:31.006 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 18:11:31.006 -03:00 [INF] Hosting environment: Development
+2023-07-04 18:11:31.006 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 18:11:31.453 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 18:11:31.635 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 183.0619ms
+2023-07-04 18:11:31.646 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 18:11:31.648 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 18:11:31.654 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.0424ms
+2023-07-04 18:11:31.664 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.1427ms
+2023-07-04 18:11:31.747 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 18:11:32.026 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.6129ms
+2023-07-04 18:12:35.466 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5113/api/Customer application/json 347
+2023-07-04 18:12:35.473 -03:00 [INF] CORS policy execution successful.
+2023-07-04 18:12:35.517 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI)'
+2023-07-04 18:12:35.530 -03:00 [INF] Route matched with {action = "Post", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Post(AdvWorksAPI.EntityLayer2.Customer) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 18:12:36.431 -03:00 [INF] Executed DbCommand (111ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Guid), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [SalesLT].[Customer] ([CompanyName], [EmailAddress], [FirstName], [LastName], [MiddleName], [ModifiedDate], [NameStyle], [PasswordHash], [PasswordSalt], [Phone], [Rowguid], [SalesPerson], [Suffix], [Title])
+OUTPUT INSERTED.[CustomerID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2023-07-04 18:12:36.466 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-07-04 18:12:36.473 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI) in 939.1877ms
+2023-07-04 18:12:36.474 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI)'
+2023-07-04 18:12:36.480 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5113/api/Customer application/json 347 - 201 - application/json;+charset=utf-8 1013.8636ms
+2023-07-04 22:15:16.173 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-04 22:15:16.309 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-04 22:15:16.311 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-04 22:15:16.312 -03:00 [INF] Hosting environment: Development
+2023-07-04 22:15:16.313 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-04 22:15:17.079 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-04 22:15:17.247 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 170.3414ms
+2023-07-04 22:15:17.259 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-04 22:15:17.260 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-04 22:15:17.265 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.1770ms
+2023-07-04 22:15:17.277 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.8062ms
+2023-07-04 22:15:17.356 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-04 22:15:17.631 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 274.5502ms
+2023-07-04 22:16:01.932 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5113/api/Customer/702 application/json 190
+2023-07-04 22:16:01.939 -03:00 [INF] CORS policy execution successful.
+2023-07-04 22:16:01.983 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Put (AdvWorksAPI)'
+2023-07-04 22:16:01.997 -03:00 [INF] Route matched with {action = "Put", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Put(Int32, AdvWorksAPI.EntityLayer2.Customer) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 22:16:02.135 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-07-04 22:16:02.143 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Put (AdvWorksAPI) in 142.8839ms
+2023-07-04 22:16:02.145 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Put (AdvWorksAPI)'
+2023-07-04 22:16:02.147 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5113/api/Customer/702 application/json 190 - 400 - application/problem+json;+charset=utf-8 214.9717ms
+2023-07-04 22:16:44.419 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5113/api/Customer/702 application/json 174
+2023-07-04 22:16:44.423 -03:00 [INF] CORS policy execution successful.
+2023-07-04 22:16:44.429 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Put (AdvWorksAPI)'
+2023-07-04 22:16:44.432 -03:00 [INF] Route matched with {action = "Put", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Put(Int32, AdvWorksAPI.EntityLayer2.Customer) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-04 22:16:45.175 -03:00 [INF] Executed DbCommand (56ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-07-04 22:16:45.357 -03:00 [INF] Executed DbCommand (66ms) [Parameters=[@p14='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Guid), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [SalesLT].[Customer] SET [CompanyName] = @p0, [EmailAddress] = @p1, [FirstName] = @p2, [LastName] = @p3, [MiddleName] = @p4, [ModifiedDate] = @p5, [NameStyle] = @p6, [PasswordHash] = @p7, [PasswordSalt] = @p8, [Phone] = @p9, [Rowguid] = @p10, [SalesPerson] = @p11, [Suffix] = @p12, [Title] = @p13
+OUTPUT 1
+WHERE [CustomerID] = @p14;
+2023-07-04 22:16:45.364 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-07-04 22:16:45.365 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Put (AdvWorksAPI) in 932.1009ms
+2023-07-04 22:16:45.366 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Put (AdvWorksAPI)'
+2023-07-04 22:16:45.371 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5113/api/Customer/702 application/json 174 - 200 - application/json;+charset=utf-8 951.9052ms

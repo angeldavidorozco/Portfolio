@@ -1,0 +1,6 @@
+2023-06-28 19:39:31.968 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 34
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 34

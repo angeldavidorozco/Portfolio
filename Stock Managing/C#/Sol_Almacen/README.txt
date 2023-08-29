@@ -1,0 +1,1 @@
+Programmed a stock management system in C# with the .NET 6 framework. The system was modeled under the CRUD methods, established a connection with a MySQL table using the MySqlClient library, and updated the information dynamically, with the capacity to produce a report of the inventory.

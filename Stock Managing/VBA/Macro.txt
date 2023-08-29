@@ -1,0 +1,179 @@
+Sub MacroProduccion()
+
+
+'Dimensionamos el espacio de trabajo
+
+Dim produccion As Range
+Dim inv As Range
+Dim celda As Range
+Dim cll As Range
+Dim c As Variant
+Dim NumLote As Variant
+Dim NumGrano As Variant
+Dim NumSaco As Variant
+Dim codigos As Range
+Dim count295 As Integer
+Dim count395 As Integer
+Dim count440 As Integer
+Dim countCH440 As Integer
+Dim count095 As Integer
+Dim countBF295 As Integer
+
+count295 = ActiveSheet.Cells(15, 41).Value
+count395 = ActiveSheet.Cells(16, 41).Value
+countCHF395 = ActiveSheet.Cells(17, 41).Value
+count440 = ActiveSheet.Cells(18, 41).Value
+countCH440 = ActiveSheet.Cells(19, 41).Value
+count095 = ActiveSheet.Cells(20, 41).Value
+countBF295 = ActiveSheet.Cells(21, 41).Value
+
+Dim t As Range
+
+
+Set produccion = Range("E1:E500, H1:H500, K1:K500, N1:N500, Q1:Q500, T1:T500, W1:W500")
+Set inv = Range("Z1:AZ500")
+Set t = Range("AK1:AL33")
+    
+    
+    'Recorremos el espacio donde se especifica el saco
+    
+    For Each celda In produccion
+   
+    c = celda.Value
+    
+        If TypeName(c) = "Double" Then
+        
+        
+        NumSaco = celda.Value
+        NumLote = celda.Offset(0, 1)
+        NumGrano = celda.Offset(0, -1)
+        
+        
+        'Recorremos el cada celda del inventario y comparamos
+        'con el tipo de grano especificado
+        
+        
+            For Each cll In inv
+            
+                If cll.Value = NumGrano Then
+                
+                
+                ''''ListaPerla = Range(cll, cll.End(xlDown)).Rows.Count
+                Set codigos = Range(cll, cll.Offset(50, 0))
+                
+                
+                
+                
+                
+                Dim serial As Range
+                
+                'Creamos un nuevo rango de celdas para el tipo de grano
+                    
+                        For Each serial In codigos
+                        
+                        Dim compLoteInv As String
+                        Dim compLote As String
+                        Dim compSacoInv As String
+                        Dim comp As String
+                        
+                        comp = NumLote
+                        
+                        compLoteInv = serial
+                        compSacoInv = serial.Offset(0, 1)
+                        compLote = "*" + comp
+                        
+                        'Comparamos los datos introducidos y chequeamos el inv
+                        
+                            If compLoteInv Like compLote And compSacoInv Like NumSaco And serial.Offset(0, 1).Interior.ColorIndex = -4142 And celda.Interior.ColorIndex = -4142 And Not compLote = "*" Then
+            
+                        
+                            serial.Offset(0, 1).Interior.ColorIndex = 37
+                            celda.Interior.ColorIndex = 37
+                            
+                            
+                                    'añadimos los contadores
+                                    If NumGrano Like "AF 295" Then
+                                    
+                                    count295 = count295 + 1
+                                    
+                                    ActiveSheet.Cells(15, 41) = count295
+                                    
+                                    ElseIf NumGrano Like "AF 395" Then
+                                    
+                                    count395 = count395 + 1
+                                    
+                                    ActiveSheet.Cells(16, 41) = count395
+                                    
+                                    ElseIf NumGrano Like "CHF 395" Then
+                                    
+                                    countCHF395 = countCHF395 + 1
+                                    
+                                    ActiveSheet.Cells(17, 41) = countCHF395
+                                    
+                                    ElseIf NumGrano Like "AP 440" Then
+                                    
+                                    count440 = count440 + 1
+                                    
+                                    ActiveSheet.Cells(18, 41) = count440
+                                    
+                                    ElseIf NumGrano Like "CHP 440" Then
+                                    
+                                    countCH440 = countCH440 + 1
+                                    
+                                    ActiveSheet.Cells(19, 41) = countCH440
+                                    
+                                    ElseIf NumGrano Like "AF 095" Then
+                                    
+                                    count095 = count095 + 1
+                                    
+                                    ActiveSheet.Cells(20, 41) = count095
+                                    
+                                    ElseIf NumGrano Like "BF 295" Then
+                                    
+                                    countBF295 = countBF295 + 1
+                                    
+                                    ActiveSheet.Cells(21, 41) = countBF295
+                                    
+                                    
+                                    
+                                    End If
+                                    
+                            
+                            
+                            'añadimos un comment para especificar la celda que fue pintada
+                                With celda.AddComment
+
+                                .Visible = False
+                                .Text serial.Address
+
+                                End With
+                            
+                            Exit For
+                            
+                            
+                            
+                            End If
+                            
+                            
+                        
+                        Next serial
+                    
+                    
+                    
+                   
+                   
+                
+                End If
+                
+            Next cll
+        
+        
+            
+        End If
+        
+    Next celda
+    
+   
+
+End Sub
+

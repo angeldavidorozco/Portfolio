@@ -1,0 +1,240 @@
+2023-06-29 10:31:56.434 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 10:31:56.464 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 10:31:56.465 -03:00 [INF] Hosting environment: Development
+2023-06-29 10:31:56.465 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 10:31:56.992 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 10:31:57.249 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 260.2345ms
+2023-06-29 10:31:57.261 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 10:31:57.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 10:31:57.264 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.8453ms
+2023-06-29 10:31:57.333 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.0590ms
+2023-06-29 10:31:57.451 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 10:31:57.552 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.8501ms
+2023-06-29 10:32:07.241 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 10:32:07.247 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 10:32:07.256 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 10:32:07.334 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 34
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 34
+2023-06-29 10:32:07.344 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-06-29 10:32:07.347 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 87.4047ms
+2023-06-29 10:32:07.350 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 10:32:07.350 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 109.3820ms
+2023-06-29 10:47:06.644 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 10:47:06.673 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 10:47:06.675 -03:00 [INF] Hosting environment: Development
+2023-06-29 10:47:06.675 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 10:47:07.002 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 10:47:07.184 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 183.3091ms
+2023-06-29 10:47:07.200 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 10:47:07.201 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 10:47:07.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.6353ms
+2023-06-29 10:47:07.212 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.0191ms
+2023-06-29 10:47:07.379 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 10:47:07.471 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.8935ms
+2023-06-29 10:47:15.449 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 10:47:15.455 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 10:47:15.464 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 10:47:15.522 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+2023-06-29 10:47:15.530 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-06-29 10:47:15.533 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 66.5052ms
+2023-06-29 10:47:15.535 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 10:47:15.536 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 87.3687ms
+2023-06-29 10:48:13.934 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 10:48:13.965 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 10:48:13.966 -03:00 [INF] Hosting environment: Development
+2023-06-29 10:48:13.966 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 10:48:14.540 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 10:48:14.737 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 197.4846ms
+2023-06-29 10:48:14.748 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 10:48:14.749 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 10:48:14.755 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.5646ms
+2023-06-29 10:48:14.764 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.0716ms
+2023-06-29 10:48:14.844 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 10:48:14.935 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.1823ms
+2023-06-29 10:48:18.099 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 10:48:18.105 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 10:48:18.114 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 10:48:18.164 -03:00 [ERR] Error in CustomerController.Get()
+Message: ERROR!
+Source: AdvWorksAPI
+Stack Trace:    at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+System.ApplicationException: ERROR!
+   at AdvWorksAPI.Controllers.CustomerController.Get() in D:\angel uni\Git-projects\sample\AdvWorksAPI\Controllers\CostumerController.cs:line 36
+2023-06-29 10:48:18.172 -03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-06-29 10:48:18.175 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 58.4528ms
+2023-06-29 10:48:18.177 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 10:48:18.178 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 500 - text/plain;+charset=utf-8 79.2848ms
+2023-06-29 13:25:38.916 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:25:38.942 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:25:38.943 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:25:38.944 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:25:39.445 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:25:39.622 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 178.7966ms
+2023-06-29 13:25:39.634 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:25:39.636 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:25:39.641 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.4040ms
+2023-06-29 13:25:39.644 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.5136ms
+2023-06-29 13:25:39.729 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:25:39.828 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.0460ms
+2023-06-29 13:25:43.548 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 13:25:43.555 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:25:43.563 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 13:25:43.592 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-29 13:25:43.609 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 41.8262ms
+2023-06-29 13:25:43.611 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:25:43.611 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 63.0632ms
+2023-06-29 13:28:45.590 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:28:45.622 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:28:45.622 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:28:45.623 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:28:45.901 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:28:46.087 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 187.1137ms
+2023-06-29 13:28:46.098 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:28:46.100 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:28:46.106 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.6714ms
+2023-06-29 13:28:46.115 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.9337ms
+2023-06-29 13:28:46.195 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:28:46.285 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.4170ms
+2023-06-29 13:28:49.729 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 13:28:49.737 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:28:49.747 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 13:28:49.771 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-29 13:28:49.785 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 34.5427ms
+2023-06-29 13:28:49.787 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:28:49.788 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 59.1693ms
+2023-06-29 13:29:08.954 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:29:08.992 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:29:08.993 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:29:08.993 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:29:09.249 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:29:09.433 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 185.7387ms
+2023-06-29 13:29:09.445 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:29:09.446 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:29:09.451 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.8673ms
+2023-06-29 13:29:09.464 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.7537ms
+2023-06-29 13:29:09.549 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:29:09.645 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.7235ms
+2023-06-29 13:29:13.471 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 13:29:13.477 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:29:13.485 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 13:29:13.509 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-29 13:29:13.522 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 32.8907ms
+2023-06-29 13:29:13.524 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:29:13.525 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 54.1037ms
+2023-06-29 13:31:09.196 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:31:09.233 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:31:09.234 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:31:09.234 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:31:09.427 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:31:09.611 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 185.4064ms
+2023-06-29 13:31:09.626 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:31:09.627 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:31:09.637 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 10.3876ms
+2023-06-29 13:31:09.645 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.7571ms
+2023-06-29 13:31:09.730 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:31:09.821 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.9768ms
+2023-06-29 13:31:16.599 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 13:31:16.606 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:31:16.614 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 13:31:16.639 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-29 13:31:16.653 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 34.1208ms
+2023-06-29 13:31:16.656 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:31:16.656 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 - application/json;+charset=utf-8 57.2448ms
+2023-06-29 13:32:11.100 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:32:11.128 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:32:11.129 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:32:11.130 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:32:11.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:32:11.781 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 181.4143ms
+2023-06-29 13:32:11.793 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:32:11.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:32:11.804 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.7554ms
+2023-06-29 13:32:11.807 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8684ms
+2023-06-29 13:32:11.900 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:32:12.178 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 277.7039ms
+2023-06-29 13:32:20.411 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer - -
+2023-06-29 13:32:20.418 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:32:20.426 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Get() on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 13:32:20.464 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-29 13:32:20.494 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 64.1936ms
+2023-06-29 13:32:20.496 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 13:32:20.498 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer - - - 200 63238 application/xml;+charset=utf-8 87.1000ms
+2023-06-29 13:34:31.618 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:34:31.650 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:34:31.651 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:34:31.652 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:34:31.934 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:34:32.117 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 183.9477ms
+2023-06-29 13:34:32.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:34:32.129 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:34:32.135 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.0388ms
+2023-06-29 13:34:32.143 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.3624ms
+2023-06-29 13:34:32.222 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:34:32.482 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 260.2223ms
+2023-06-29 13:34:40.355 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5113/api/Customer application/xml 355
+2023-06-29 13:34:40.362 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI)'
+2023-06-29 13:34:40.376 -03:00 [INF] Route matched with {action = "Post", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Post(AdvWorksAPI.EntityLayer2.Customer) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 13:34:40.419 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-06-29 13:34:40.428 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI) in 48.0101ms
+2023-06-29 13:34:40.431 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI)'
+2023-06-29 13:34:40.432 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5113/api/Customer application/xml 355 - 201 405 application/xml;+charset=utf-8 76.2263ms
+2023-06-29 13:35:31.491 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 13:35:31.517 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 13:35:31.519 -03:00 [INF] Hosting environment: Development
+2023-06-29 13:35:31.520 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 13:35:32.109 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 13:35:32.288 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 180.9638ms
+2023-06-29 13:35:32.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 13:35:32.301 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 13:35:32.308 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.7147ms
+2023-06-29 13:35:32.318 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.7439ms
+2023-06-29 13:35:32.402 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 13:35:32.682 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 280.1667ms
+2023-06-29 14:22:50.393 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 14:22:50.419 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 14:22:50.420 -03:00 [INF] Hosting environment: Development
+2023-06-29 14:22:50.420 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 14:22:50.781 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 14:22:50.969 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 190.2334ms
+2023-06-29 14:22:50.984 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 14:22:50.986 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 14:22:50.993 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.2111ms
+2023-06-29 14:22:51.002 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.8106ms
+2023-06-29 14:22:51.087 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 14:22:51.345 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.7686ms
+2023-06-29 14:22:55.759 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer/306 - -
+2023-06-29 14:22:55.765 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 14:22:55.790 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Get(Int32) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 14:22:55.844 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-06-29 14:22:55.856 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 61.8511ms
+2023-06-29 14:22:55.858 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 14:22:55.859 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer/306 - - - 200 - application/json;+charset=utf-8 100.2323ms
+2023-06-29 14:27:03.630 -03:00 [INF] Now listening on: http://localhost:5113
+2023-06-29 14:27:03.659 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 14:27:03.660 -03:00 [INF] Hosting environment: Development
+2023-06-29 14:27:03.661 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-06-29 14:27:04.228 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-06-29 14:27:04.411 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 185.2874ms
+2023-06-29 14:27:04.423 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-06-29 14:27:04.424 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 14:27:04.429 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.4714ms
+2023-06-29 14:27:04.437 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.1824ms
+2023-06-29 14:27:04.516 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-06-29 14:27:04.775 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 259.6021ms
+2023-06-29 14:27:10.208 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer/306 - -
+2023-06-29 14:27:10.213 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:27:10.218 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 14:27:10.368 -03:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Get(Int32) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-06-29 14:27:10.861 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-06-29 14:27:10.875 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI) in 503.3194ms
+2023-06-29 14:27:10.878 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Get (AdvWorksAPI)'
+2023-06-29 14:27:10.878 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer/306 - - - 200 - application/json;+charset=utf-8 670.4797ms

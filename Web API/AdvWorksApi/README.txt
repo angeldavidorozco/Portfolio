@@ -1,0 +1,1 @@
+Took a course related to web API development in C# under the .NET 6 framework, utilizing Swagger to describe the structure. I managed to use routing and dependency injection to create a set of endpoints, configured the API for CORS, connected to a SQL server using Entity Framework to fetch the information for the API calls, and secured the endpoints using JWT.

@@ -1,0 +1,165 @@
+2023-07-05 21:02:00.023 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 21:02:00.229 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-05 21:02:00.230 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 21:02:00.231 -03:00 [INF] Hosting environment: Development
+2023-07-05 21:02:00.231 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-05 21:02:00.798 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-05 21:02:01.041 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 243.5418ms
+2023-07-05 21:02:01.057 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-05 21:02:01.058 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 21:02:01.065 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.7225ms
+2023-07-05 21:02:01.102 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.2745ms
+2023-07-05 21:02:01.174 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-05 21:02:01.190 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/favicon-32x32.png - -
+2023-07-05 21:02:01.198 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-05 21:02:01.199 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/favicon-32x32.png - - - 200 628 image/png 8.7149ms
+2023-07-05 21:02:01.502 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 328.2184ms
+2023-07-05 21:02:11.479 -03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5113/api/Customer/702 - -
+2023-07-05 21:02:11.483 -03:00 [INF] CORS policy execution successful.
+2023-07-05 21:02:12.222 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Delete (AdvWorksAPI)'
+2023-07-05 21:02:12.235 -03:00 [INF] Route matched with {action = "Delete", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Delete(Int32) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-05 21:02:14.214 -03:00 [INF] Executed DbCommand (58ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+WHERE [c].[CustomerID] = @__p_0
+2023-07-05 21:02:14.572 -03:00 [INF] Executed DbCommand (234ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [SalesLT].[Customer]
+OUTPUT 1
+WHERE [CustomerID] = @p0;
+2023-07-05 21:02:14.581 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-05 21:02:14.584 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Delete (AdvWorksAPI) in 2345.72ms
+2023-07-05 21:02:14.585 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Delete (AdvWorksAPI)'
+2023-07-05 21:02:14.591 -03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5113/api/Customer/702 - - - 204 - - 3112.6832ms
+2023-07-05 21:05:04.529 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 21:05:04.660 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-05 21:05:04.662 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 21:05:04.662 -03:00 [INF] Hosting environment: Development
+2023-07-05 21:05:04.663 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-05 21:05:05.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-05 21:05:05.455 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 172.8368ms
+2023-07-05 21:05:05.466 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-05 21:05:05.468 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 21:05:05.472 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.4853ms
+2023-07-05 21:05:05.477 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.1995ms
+2023-07-05 21:05:05.560 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-05 21:05:05.844 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 284.4368ms
+2023-07-05 21:05:21.565 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5113/api/Customer application/json 317
+2023-07-05 21:05:21.570 -03:00 [INF] CORS policy execution successful.
+2023-07-05 21:05:21.621 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI)'
+2023-07-05 21:05:21.634 -03:00 [INF] Route matched with {action = "Post", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer] Post(AdvWorksAPI.EntityLayer2.Customer) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-05 21:05:21.785 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-07-05 21:05:21.794 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI) in 156.2293ms
+2023-07-05 21:05:21.796 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Post (AdvWorksAPI)'
+2023-07-05 21:05:21.797 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5113/api/Customer application/json 317 - 400 - application/problem+json;+charset=utf-8 232.5202ms
+2023-07-05 21:42:52.511 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 21:42:52.631 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-05 21:42:52.633 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 21:42:52.635 -03:00 [INF] Hosting environment: Development
+2023-07-05 21:42:52.635 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-05 21:42:53.130 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-05 21:42:53.313 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 184.9544ms
+2023-07-05 21:42:53.326 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-05 21:42:53.328 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 21:42:53.332 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.2105ms
+2023-07-05 21:42:53.346 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.7275ms
+2023-07-05 21:42:53.449 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-05 21:42:53.763 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 313.5049ms
+2023-07-05 21:43:18.824 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/Customer/Search?FirstName=A&LastName=B&Title=Ms&OrderBy=LastName - -
+2023-07-05 21:43:18.870 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerController.Search (AdvWorksAPI)'
+2023-07-05 21:43:18.886 -03:00 [INF] Route matched with {action = "Search", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]] Search(AdvWorksAPI.SearchClasses.CustomerSearch) on controller AdvWorksAPI.Controllers.CustomerController (AdvWorksAPI).
+2023-07-05 21:43:19.878 -03:00 [INF] Executed DbCommand (121ms) [Parameters=[@__search_FirstName_0='?' (Size = 50), @__search_LastName_1='?' (Size = 50), @__search_Title_2='?' (Size = 4000), @__search_Title_2_1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+WHERE ((@__search_FirstName_0 LIKE N'') OR CHARINDEX(@__search_FirstName_0, [c].[FirstName]) > 0) AND ((@__search_LastName_1 LIKE N'') OR CHARINDEX(@__search_LastName_1, [c].[LastName]) > 0) AND CASE
+    WHEN ([c].[Title] IS NULL) OR ([c].[Title] LIKE N'') THEN CAST(1 AS bit)
+    ELSE CASE
+        WHEN @__search_Title_2 = N'' OR (([c].[Title] IS NOT NULL) AND LEFT([c].[Title], LEN(@__search_Title_2_1)) = @__search_Title_2_1) THEN CAST(1 AS bit)
+        ELSE CAST(0 AS bit)
+    END
+END = CAST(1 AS bit)
+ORDER BY [c].[LastName]
+2023-07-05 21:43:19.968 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 21:43:19.987 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerController.Search (AdvWorksAPI) in 1097.5048ms
+2023-07-05 21:43:19.990 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerController.Search (AdvWorksAPI)'
+2023-07-05 21:43:19.996 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/Customer/Search?FirstName=A&LastName=B&Title=Ms&OrderBy=LastName - - - 200 - application/json;+charset=utf-8 1172.0671ms
+2023-07-05 22:56:50.853 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 22:56:51.016 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-05 22:56:51.018 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 22:56:51.018 -03:00 [INF] Hosting environment: Development
+2023-07-05 22:56:51.018 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-05 22:56:51.610 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-05 22:56:51.787 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 178.2845ms
+2023-07-05 22:56:51.798 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-05 22:56:51.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 22:56:51.805 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.4572ms
+2023-07-05 22:56:51.808 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.7727ms
+2023-07-05 22:56:51.892 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-05 22:56:52.175 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 282.7633ms
+2023-07-05 22:56:58.089 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/CustomerAsync - -
+2023-07-05 22:56:58.772 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerAsyncController.GetAsync (AdvWorksAPI)'
+2023-07-05 22:56:58.785 -03:00 [INF] Route matched with {action = "Get", controller = "CustomerAsync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]]] GetAsync() on controller AdvWorksAPI.Controllers.CustomerAsyncController (AdvWorksAPI).
+2023-07-05 22:57:00.429 -03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+ORDER BY [c].[LastName]
+2023-07-05 22:57:00.532 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 22:57:00.552 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerAsyncController.GetAsync (AdvWorksAPI) in 1763.1261ms
+2023-07-05 22:57:00.553 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerAsyncController.GetAsync (AdvWorksAPI)'
+2023-07-05 22:57:00.561 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/CustomerAsync - - - 200 - application/json;+charset=utf-8 2471.4517ms
+2023-07-05 22:59:55.769 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 22:59:55.890 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-05 22:59:55.891 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 22:59:55.891 -03:00 [INF] Hosting environment: Development
+2023-07-05 22:59:55.892 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-05 22:59:56.500 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-05 22:59:56.673 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 175.1023ms
+2023-07-05 22:59:56.686 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-05 22:59:56.687 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 22:59:56.693 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 5.2661ms
+2023-07-05 22:59:56.697 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.2129ms
+2023-07-05 22:59:56.780 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-05 22:59:57.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.7639ms
+2023-07-05 23:00:04.447 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/CustomerAsync/235 - -
+2023-07-05 23:00:04.495 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerAsyncController.GetAsync (AdvWorksAPI)'
+2023-07-05 23:00:04.511 -03:00 [INF] Route matched with {action = "Get", controller = "CustomerAsync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AdvWorksAPI.EntityLayer2.Customer]] GetAsync(Int32) on controller AdvWorksAPI.Controllers.CustomerAsyncController (AdvWorksAPI).
+2023-07-05 23:00:05.391 -03:00 [INF] Executed DbCommand (73ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+WHERE [c].[CustomerID] = @__id_0
+2023-07-05 23:00:05.468 -03:00 [INF] Executing ObjectResult, writing value of type 'AdvWorksAPI.EntityLayer2.Customer'.
+2023-07-05 23:00:05.486 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerAsyncController.GetAsync (AdvWorksAPI) in 970.2495ms
+2023-07-05 23:00:05.488 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerAsyncController.GetAsync (AdvWorksAPI)'
+2023-07-05 23:00:05.494 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/CustomerAsync/235 - - - 200 - application/json;+charset=utf-8 1046.9018ms
+2023-07-05 23:04:29.920 -03:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 23:04:30.049 -03:00 [INF] Now listening on: http://localhost:5113
+2023-07-05 23:04:30.050 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 23:04:30.051 -03:00 [INF] Hosting environment: Development
+2023-07-05 23:04:30.051 -03:00 [INF] Content root path: D:\angel uni\Git-projects\sample\AdvWorksAPI
+2023-07-05 23:04:30.721 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/index.html - -
+2023-07-05 23:04:30.896 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/index.html - - - 200 - text/html;charset=utf-8 176.2648ms
+2023-07-05 23:04:30.907 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_vs/browserLink - -
+2023-07-05 23:04:30.909 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 23:04:30.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 10.8105ms
+2023-07-05 23:04:30.922 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.2116ms
+2023-07-05 23:04:31.011 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - -
+2023-07-05 23:04:31.342 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 330.2134ms
+2023-07-05 23:04:51.017 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5113/api/CustomerAsync/Search?FirstName=A&LastName=B&Title=Ms&OrderBy=LastName - -
+2023-07-05 23:04:51.064 -03:00 [INF] Executing endpoint 'AdvWorksAPI.Controllers.CustomerAsyncController.SearchAsync (AdvWorksAPI)'
+2023-07-05 23:04:51.082 -03:00 [INF] Route matched with {action = "Search", controller = "CustomerAsync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AdvWorksAPI.EntityLayer2.Customer]]] SearchAsync(AdvWorksAPI.SearchClasses.CustomerSearch) on controller AdvWorksAPI.Controllers.CustomerAsyncController (AdvWorksAPI).
+2023-07-05 23:04:51.952 -03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__search_FirstName_0='?' (Size = 50), @__search_LastName_1='?' (Size = 50), @__search_Title_2='?' (Size = 4000), @__search_Title_2_1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CustomerID], [c].[CompanyName], [c].[EmailAddress], [c].[FirstName], [c].[LastName], [c].[MiddleName], [c].[ModifiedDate], [c].[NameStyle], [c].[PasswordHash], [c].[PasswordSalt], [c].[Phone], [c].[Rowguid], [c].[SalesPerson], [c].[Suffix], [c].[Title]
+FROM [SalesLT].[Customer] AS [c]
+WHERE ((@__search_FirstName_0 LIKE N'') OR CHARINDEX(@__search_FirstName_0, [c].[FirstName]) > 0) AND ((@__search_LastName_1 LIKE N'') OR CHARINDEX(@__search_LastName_1, [c].[LastName]) > 0) AND CASE
+    WHEN ([c].[Title] IS NULL) OR ([c].[Title] LIKE N'') THEN CAST(1 AS bit)
+    ELSE CASE
+        WHEN @__search_Title_2 = N'' OR (([c].[Title] IS NOT NULL) AND LEFT([c].[Title], LEN(@__search_Title_2_1)) = @__search_Title_2_1) THEN CAST(1 AS bit)
+        ELSE CAST(0 AS bit)
+    END
+END = CAST(1 AS bit)
+ORDER BY [c].[LastName]
+2023-07-05 23:04:52.045 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AdvWorksAPI.EntityLayer2.Customer, AdvWorksAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 23:04:52.063 -03:00 [INF] Executed action AdvWorksAPI.Controllers.CustomerAsyncController.SearchAsync (AdvWorksAPI) in 976.1541ms
+2023-07-05 23:04:52.065 -03:00 [INF] Executed endpoint 'AdvWorksAPI.Controllers.CustomerAsyncController.SearchAsync (AdvWorksAPI)'
+2023-07-05 23:04:52.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5113/api/CustomerAsync/Search?FirstName=A&LastName=B&Title=Ms&OrderBy=LastName - - - 200 - application/json;+charset=utf-8 1054.1817ms
